@@ -13,7 +13,7 @@ namespace GuessingGame2
         {
             Random ranNumber = new Random();
             int random;
-            random = 5; //ranNumber.Next(1, 11);
+            random = ranNumber.Next(1, 11);
             int attempts = 0;
             int guess;
             int pgH = 0;

@@ -16,7 +16,7 @@ namespace MultiplicationTable
             while (a <= 10)
             {
                 result = a * b;
-                Write("{0} ", result);
+                Write("{0}\t ", result);
                 ++b;
 
                 if (b > 10)
